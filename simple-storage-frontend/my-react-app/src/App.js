@@ -2,6 +2,10 @@ import "./App.css";
 import React from "react";
 import SimpleStorage from "./SimpleStorage";
 
+/**
+ * @title App
+ * @dev Main React component rendering the SimpleStorage component
+ */
 function App() {
   return (
     <div className="App">
