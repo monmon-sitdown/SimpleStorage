@@ -20,7 +20,6 @@ This project is a simple smart contract written in Solidity. The SimpleStorage c
 This is the main file for the smart contract, which contains the implementation of the SimpleStorage contract. The contract allows users to set and retrieve a stored number.
 
 ```solidity
-// SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
 contract SimpleStorage {
@@ -41,7 +40,6 @@ contract SimpleStorage {
 This is the script used for deploying the SimpleStorage contract. It utilizes Foundry's forge-std library and the Script class for deployment.
 
 ```solidity
-// SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
 import {Script, console} from "forge-std/Script.sol";
@@ -66,7 +64,6 @@ contract DeploySimpleStorage is Script {
 This is the testing script for the SimpleStorage contract. It includes basic functionality tests to ensure that the setNumber and getStoredNumber methods work correctly.
 
 ```solidity
-// SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
 import {Test, console} from "forge-std/Test.sol";

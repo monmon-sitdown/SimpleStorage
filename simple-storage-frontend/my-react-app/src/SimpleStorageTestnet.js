@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 
 const abi = require("./SimpleStorage.abi.json");
 
-const contractAddress = process.env.REACT_APP_GANACHE_CONTRACT; // Change to the testnet address
+const contractAddress = process.env.REACT_APP_GANACHE_CONTRACT;
 
 //const provider = new ethers.providers.Web3Provider(window.ethereum);
 

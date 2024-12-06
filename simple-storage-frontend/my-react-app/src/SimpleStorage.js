@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import abi from "./SimpleStorage.abi.json";
 
-const contractAddress = "0x5327d271a06625FA7f966Def9A39fd10723855F6"; // Change to your contract address
+const contractAddress = "0x5327d271a06625FA7f966Def9A39fd10723855F6";
 
 /**
  * @title SimpleStorage
